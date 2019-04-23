@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,.ui-root{
+  width: 100vw;
+  height: 100vh;
+} 
+
+.ui-root{
+  display: flex;
+  &_section{
+   display: flex;
+   flex-direction: column;
+   flex:1; 
+  }
+}
+.ui-root_section__main{
+  flex: 1;
+  display: flex;
+}
+*img{
+  // user-select: none;
+}

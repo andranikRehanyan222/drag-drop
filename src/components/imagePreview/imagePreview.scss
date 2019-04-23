@@ -1,0 +1,14 @@
+.ui-image-preview{
+  display: flex;
+  flex-wrap: wrap;
+  flex:1;
+  align-items: flex-start;
+  align-content: flex-start;
+  border-right: 4px solid #ccc;
+  overflow: hidden;
+  overflow-y: auto;
+  &_image__wrapper{
+    width: 150px;
+    padding: 20px;
+  } 
+}

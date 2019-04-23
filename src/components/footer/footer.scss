@@ -1,0 +1,15 @@
+.ui-footer{
+  // display: flex;
+  height: 150px;
+  background-color: #ccc;
+  border-top: 2px solid #0bf;
+  // overflow: hidden;
+  // overflow-x: auto; 
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: calc(100vw - 250px);
+  > div{
+    display: inline-block;
+  }
+}
